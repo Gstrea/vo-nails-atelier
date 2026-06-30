@@ -34,7 +34,7 @@
 
 }
 
-.portfolio-filter{
+.portfolio-filters{
 
     display:flex;
 
@@ -46,7 +46,7 @@
 
 }
 
-.portfolio-filter button{
+.portfolio-filters button{
 
     background:white;
 
@@ -64,7 +64,7 @@
 
 }
 
-.portfolio-filter button:hover{
+.portfolio-filters button:hover{
 
     background:var(--accent);
 
@@ -72,7 +72,7 @@
 
 }
 
-.portfolio-filter .active{
+.portfolio-filters .active{
 
     background:var(--accent);
 
@@ -154,4 +154,11 @@
 
 }
 
+}
+.portfolio-item{
+    transition:.35s;
+}
+
+.portfolio-item.hide{
+    display:none;
 }
