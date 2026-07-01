@@ -140,17 +140,39 @@
 }
 @media (max-width:768px){
 
-.portfolio-grid{
+    .portfolio-filters{
 
-    grid-template-columns:1fr;
+        display:flex;
 
-}
+        flex-wrap:wrap;
 
-.portfolio-filter{
+        justify-content:center;
 
-    flex-wrap:wrap;
+        gap:12px;
 
-    justify-content:center;
+        margin-bottom:40px;
+
+    }
+
+    .portfolio-filters button{
+
+        flex:1 1 calc(50% - 12px);
+
+        max-width:170px;
+
+        padding:12px 18px;
+
+        font-size:14px;
+
+    }
+
+    .portfolio-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+        gap:16px;
+
+    }
 
 }
 
@@ -161,4 +183,22 @@
 
 .portfolio-item.hide{
     display:none;
+}
+
+@media (max-width:480px){
+
+    .portfolio-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .portfolio-filters button{
+
+        max-width:none;
+
+        flex:1 1 100%;
+
+    }
+
 }
