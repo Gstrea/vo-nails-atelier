@@ -90,7 +90,7 @@
 
     font-size:19px;
 
-    color:#4b313b;
+    color:#69565d;
 
 }
 
@@ -107,7 +107,7 @@
     background:linear-gradient(135deg,#d98ca5,#bf6d8b);
 
     box-shadow:
-        0 25px 70px rgba(191,109,139,.35);
+        0 25px 70px rgba(194, 152, 167, 0.35);
 
     color:white;
 
@@ -140,6 +140,9 @@
 }
 
 .offer-box .btn-book{
+
+    display: block;
+    margin: 0 auto;
 
     background:white;
 

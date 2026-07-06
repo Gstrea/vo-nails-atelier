@@ -207,12 +207,10 @@ p{
 
     display:flex;
 
+    justify-content:center;
     align-items:center;
 
-    justify-content:center;
-
     width:220px;
-
     height:58px;
 
     background:var(--accent);
@@ -230,7 +228,9 @@ p{
 }
 
 .btn-book:hover{
+
     background:var(--accent-hover);
+
 }
 /* ========================= */
 /* RESPONSIVE */
